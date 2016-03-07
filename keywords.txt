@@ -1,0 +1,16 @@
+###########################################
+# Syntax Coloring Map For SchedulerLCD
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+SchedulerLCD	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+setTimer	KEYWORD2
+print	KEYWORD2
+reset	KEYWORD2
