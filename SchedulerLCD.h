@@ -1,9 +1,7 @@
 #ifndef SchedulerLCD_h
 #define SchedulerLCD_h
 
-#ifndef Arduino_h
 #include <Arduino.h>
-#endif
 
 
 
