@@ -4,7 +4,6 @@
 #include <Arduino.h>
 
 
-
 template<typename T>
 class SchedulerLCD
 {
@@ -17,7 +16,6 @@ class SchedulerLCD
       void print(const char* firstLine, ...);
       void reset();
 
-
    private:
 
       unsigned long time_last_call;
@@ -25,10 +23,7 @@ class SchedulerLCD
       T* _lcd;
 };
 
-
-
 #endif
-
 
 
 template<typename T>
@@ -90,7 +85,6 @@ void SchedulerLCD<T>::print(const char* firstLine, ...)
 template<typename T>
 void SchedulerLCD<T>::reset()
 {
-
   if (call+1 == next_call)
   {
     next_call = 1;
